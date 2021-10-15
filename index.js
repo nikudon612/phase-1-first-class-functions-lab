@@ -18,6 +18,18 @@ const fareDoubler = (fare) => fare * 2;
 
 const fareTripler = (fare) => fare * 3;
 
+// const createFareMultiplier = (fare, multiplier) => {
+//     return multiplier(fare)
+//   }
+
+//   const fareDoubler = (fare) => {
+//     return fare * 2
+//   }
+
+//   const fareTripler = (fare) => {
+//     return fare * 3
+// }
+
 const selectDifferentDrivers = (drivers, returnFirstTwoDrivers) => {
   return returnFirstTwoDrivers(drivers);
 };
